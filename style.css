@@ -1,0 +1,23 @@
+.footer {
+    height: 100px;
+    color: white;
+    margin-top: 20px;
+}
+
+.game-window {
+    height: 500px;
+    border: 2px solid black;
+    padding: 0;
+}
+
+canvas {
+    height: 100%;
+    width: 100%;
+    background-color: #2aabd2;
+    box-sizing: content-box;
+}
+
+.clock {
+    font-size: 20px;
+    padding-top: 20px;
+}

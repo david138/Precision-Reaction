@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Precision Pick</title>
+        <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
+        <link href='style.css' rel='stylesheet'>
+    </head>
+    <body>
+
+        <div class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand"> Precision / Reaction</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1 col-xs-2"><button type="button" class="btn btn-lg btn-success start">Start</button></div>
+                <div class="col-md-1 col-xs-2"><button type="button" class="btn btn-lg btn-warning restart">Reset</button></div>
+                <div class="col-xs-1 col-xs-offset-1 clock"> 00:00 </div>
+
+            </div>
+        </div>
+
+        <div class='container'>
+            <div class="row">
+                <div class="game-window col-sm-12">
+                    <canvas id="gameBoard"> </canvas>
+                 </div>
+            </div>
+        </div>
+
+        <div class="footer navbar-inverse">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p class="text-center"> LTD Productions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="gameMechanics.js"></script>
+        <script src="interact.js"></script>
+        <script src='bootstrap-3.3.7-dist/js/bootstrap.js'></script>
+    </body>
+</html>
